@@ -1,0 +1,25 @@
+.yarn
+node_modules
+build
+coverage
+data
+temp
+
+junit.xml
+
+
+.env
+
+.DS_Store
+.DS_store
+
+js-test-results.xml
+.vscode/settings.json
+
+.idea/
+
+
+.template-hash
+
+# Claude AI personal context (not to be committed)
+.claude/

@@ -1,0 +1,81 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "My API",
+    "version": "0.0.0"
+  },
+  "tags": [],
+  "paths": {
+    "/health/": {
+      "get": {
+        "operationId": "Health_getHealth",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The request has succeeded.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthCheckResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/hello/": {
+      "get": {
+        "operationId": "HelloWorld_getHello",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The request has succeeded.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "message"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HealthCheckResponse": {
+        "type": "object",
+        "required": [
+          "version",
+          "uptime"
+        ],
+        "properties": {
+          "version": {
+            "type": "string"
+          },
+          "uptime": {
+            "type": "number",
+            "format": "double"
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.myapi.com",
+      "description": "Production server",
+      "variables": {}
+    }
+  ]
+}
