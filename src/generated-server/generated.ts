@@ -59,7 +59,7 @@ export function createRouter(implementation: Implementation): Router {
 
   // helloWorldGetHello
   router.get(
-    `/hello/`,
+    `/api/hello/`,
     async (req: Request, res: Response, next: NextFunction) => {
       try {
         const input = {
@@ -116,7 +116,7 @@ export function createRouter(implementation: Implementation): Router {
 
   // healthGetHealth
   router.get(
-    `/health/`,
+    `/api/health/`,
     async (req: Request, res: Response, next: NextFunction) => {
       try {
         const input = {

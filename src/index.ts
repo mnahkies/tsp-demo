@@ -19,7 +19,7 @@ app.use(express.json());
 app.use("/api-docs", serve as unknown as RequestHandler[], setup(swaggerDocument) as unknown as RequestHandler);
 
 // Routes
-app.use("/api", helloRouter);
+app.use(helloRouter);
 
 // 404 handler
 app.use("*", (_req, res) => {

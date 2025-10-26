@@ -6,7 +6,7 @@
   },
   "tags": [],
   "paths": {
-    "/health/": {
+    "/api/health/": {
       "get": {
         "operationId": "Health_getHealth",
         "parameters": [],
@@ -24,7 +24,7 @@
         }
       }
     },
-    "/hello/": {
+    "/api/hello/": {
       "get": {
         "operationId": "HelloWorld_getHello",
         "parameters": [],

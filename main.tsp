@@ -13,7 +13,7 @@ model HealthCheckResponse {
   uptime: float64;
 }
 
-@route("/hello")
+@route("/api/hello")
 interface HelloWorld {
   @get
   @route("/")
@@ -25,7 +25,7 @@ interface HelloWorld {
   };
 }
 
-@route("/health")
+@route("/api/health")
 interface Health {
   @get
   @route("/")
