@@ -108,18 +108,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@biomejs/biome@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@biomejs/biome@npm:2.1.2"
+"@biomejs/biome@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@biomejs/biome@npm:2.2.6"
   dependencies:
-    "@biomejs/cli-darwin-arm64": "npm:2.1.2"
-    "@biomejs/cli-darwin-x64": "npm:2.1.2"
-    "@biomejs/cli-linux-arm64": "npm:2.1.2"
-    "@biomejs/cli-linux-arm64-musl": "npm:2.1.2"
-    "@biomejs/cli-linux-x64": "npm:2.1.2"
-    "@biomejs/cli-linux-x64-musl": "npm:2.1.2"
-    "@biomejs/cli-win32-arm64": "npm:2.1.2"
-    "@biomejs/cli-win32-x64": "npm:2.1.2"
+    "@biomejs/cli-darwin-arm64": "npm:2.2.6"
+    "@biomejs/cli-darwin-x64": "npm:2.2.6"
+    "@biomejs/cli-linux-arm64": "npm:2.2.6"
+    "@biomejs/cli-linux-arm64-musl": "npm:2.2.6"
+    "@biomejs/cli-linux-x64": "npm:2.2.6"
+    "@biomejs/cli-linux-x64-musl": "npm:2.2.6"
+    "@biomejs/cli-win32-arm64": "npm:2.2.6"
+    "@biomejs/cli-win32-x64": "npm:2.2.6"
   dependenciesMeta:
     "@biomejs/cli-darwin-arm64":
       optional: true
@@ -139,73 +139,73 @@ __metadata:
       optional: true
   bin:
     biome: bin/biome
-  checksum: 10c0/4863a5d64ff7e47c1f535aca3c0d59769fd1e59868b178798bf1f10de94f41188f235accddb852778743b16239dd890a520266dd2f93ecbcd147ad339caa8e23
+  checksum: 10c0/1b99279f41acd5e9928da8c8864194642cc5d197c6517366fe159c9d8af4b6f5da1dd200264456c3dd423b6355715ba153ae6488d82ae3678a0c699d76c8a81e
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-arm64@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@biomejs/cli-darwin-arm64@npm:2.1.2"
+"@biomejs/cli-darwin-arm64@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@biomejs/cli-darwin-arm64@npm:2.2.6"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-x64@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@biomejs/cli-darwin-x64@npm:2.1.2"
+"@biomejs/cli-darwin-x64@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@biomejs/cli-darwin-x64@npm:2.2.6"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64-musl@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.1.2"
+"@biomejs/cli-linux-arm64-musl@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.2.6"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@biomejs/cli-linux-arm64@npm:2.1.2"
+"@biomejs/cli-linux-arm64@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@biomejs/cli-linux-arm64@npm:2.2.6"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64-musl@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@biomejs/cli-linux-x64-musl@npm:2.1.2"
+"@biomejs/cli-linux-x64-musl@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@biomejs/cli-linux-x64-musl@npm:2.2.6"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@biomejs/cli-linux-x64@npm:2.1.2"
+"@biomejs/cli-linux-x64@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@biomejs/cli-linux-x64@npm:2.2.6"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-arm64@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@biomejs/cli-win32-arm64@npm:2.1.2"
+"@biomejs/cli-win32-arm64@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@biomejs/cli-win32-arm64@npm:2.2.6"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-x64@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@biomejs/cli-win32-x64@npm:2.1.2"
+"@biomejs/cli-win32-x64@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@biomejs/cli-win32-x64@npm:2.2.6"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/js-api@npm:2.0.3":
-  version: 2.0.3
-  resolution: "@biomejs/js-api@npm:2.0.3"
+"@biomejs/js-api@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@biomejs/js-api@npm:3.0.0"
   peerDependencies:
-    "@biomejs/wasm-bundler": ^2.1.1
-    "@biomejs/wasm-nodejs": ^2.1.1
-    "@biomejs/wasm-web": ^2.1.1
+    "@biomejs/wasm-bundler": ^2.2.0
+    "@biomejs/wasm-nodejs": ^2.2.0
+    "@biomejs/wasm-web": ^2.2.0
   peerDependenciesMeta:
     "@biomejs/wasm-bundler":
       optional: true
@@ -213,14 +213,14 @@ __metadata:
       optional: true
     "@biomejs/wasm-web":
       optional: true
-  checksum: 10c0/6739e10dc7b9a3790bd04d640d14ca39c372d5954eea60d9700f6fa2b3e3820d051a4f4ae5462d1f27c742a6ba51b22f9a4f88dfe96ca2fefae2fd4c3651a834
+  checksum: 10c0/079763051b26d01b7a4ff4a65f3a4ce3788829d0e068964bba8aced2a2d75c359fb8cdd8f51e272431ee1398c48353eb25b5a522426fdc7f648a02459df351e2
   languageName: node
   linkType: hard
 
-"@biomejs/wasm-nodejs@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@biomejs/wasm-nodejs@npm:2.1.2"
-  checksum: 10c0/3293ff1ea9e061b306c495d9c9a1b621ef5c90a67f6eeb8bf8332ab4ef58e567e1bae58425c60908bea8c32340491cdbbe23c14c7549abbffc7592c2402252fb
+"@biomejs/wasm-nodejs@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@biomejs/wasm-nodejs@npm:2.2.6"
+  checksum: 10c0/f58c1f2c21fc7df30f851adc50582fa1b403330959c0aff665272bb12bc9811fbe80803488f1596018f39319e6ad0399c290e143daf3b872c0c1c62c5812e4fc
   languageName: node
   linkType: hard
 
@@ -907,26 +907,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nahkies/openapi-code-generator@npm:^0.21.1":
-  version: 0.21.1
-  resolution: "@nahkies/openapi-code-generator@npm:0.21.1"
+"@nahkies/openapi-code-generator@npm:^0.22.0-alpha.0":
+  version: 0.22.0-alpha.0
+  resolution: "@nahkies/openapi-code-generator@npm:0.22.0-alpha.0"
   dependencies:
-    "@biomejs/biome": "npm:2.1.2"
-    "@biomejs/js-api": "npm:2.0.3"
-    "@biomejs/wasm-nodejs": "npm:2.1.2"
+    "@biomejs/biome": "npm:2.2.6"
+    "@biomejs/js-api": "npm:3.0.0"
+    "@biomejs/wasm-nodejs": "npm:2.2.6"
     "@commander-js/extra-typings": "npm:^14.0.0"
     ajv: "npm:^8.17.1"
     ajv-draft-04: "npm:^1.0.0"
     ajv-formats: "npm:^3.0.1"
-    commander: "npm:^14.0.0"
+    commander: "npm:^14.0.1"
     js-yaml: "npm:^4.1.0"
     json5: "npm:^2.2.3"
     lodash: "npm:^4.17.21"
-    source-map-support: "npm:^0.5.21"
-    strip-json-comments: "npm:^5.0.2"
     tslib: "npm:^2.8.1"
-    typescript: "npm:~5.8.3"
-    zod: "npm:3.25.74"
+    typescript: "npm:^5.9.3"
+    zod: "npm:^3.25.74"
   peerDependencies:
     "@typespec/compiler": ^1.1.0
     "@typespec/events": ^0.72.1
@@ -960,14 +958,14 @@ __metadata:
     "@typespec/xml":
       optional: true
   bin:
-    openapi-code-generator: ./dist/cli.js
-  checksum: 10c0/868692c9d09a857add361eaa28c2a3de4220e67ceb7f297f44c6c7cbbe43add2e6ba2df915f88d1955a2647f6dddc112c9cd3f4aacea3cdde707e405d2dff1ff
+    openapi-code-generator: dist/cli.js
+  checksum: 10c0/109e3991da7688a7d0edae9d4b499f416d291ba05b096579f7847abe12279d30187e225861b630558dc5bc3580bbc4689e838844d38682b676ec46965f5d6fcc
   languageName: node
   linkType: hard
 
-"@nahkies/typescript-express-runtime@npm:^0.21.1":
-  version: 0.21.1
-  resolution: "@nahkies/typescript-express-runtime@npm:0.21.1"
+"@nahkies/typescript-express-runtime@npm:^0.22.0-alpha.0":
+  version: 0.22.0-alpha.0
+  resolution: "@nahkies/typescript-express-runtime@npm:0.22.0-alpha.0"
   dependencies:
     tslib: "npm:^2.8.1"
   peerDependencies:
@@ -976,8 +974,8 @@ __metadata:
     body-parser: ^2.2.0
     cors: ^2.8.5
     express: ^5.1.0
-    joi: ^17.1.1
-    zod: 3.25.74
+    joi: ^17.13.3 || ^18.0.1
+    zod: ^3.25.74 || ^4.1.12
   peerDependenciesMeta:
     cors:
       optional: true
@@ -985,7 +983,7 @@ __metadata:
       optional: true
     zod:
       optional: true
-  checksum: 10c0/15fbebfbf25ef2069e8fa905a793478053a8b2e3a9aeedac0f7ae518e3d033b68fe9b71f4f7ce36d6b7ebf1310ce2a90956f3221864e1e9db054edaa694bf4da
+  checksum: 10c0/03577b0397c86361853312503bbdff60ad82097001941e6c6ba95fe906dc9def0a6edc504a1cf8fb9d2c7e20176539a3ed513fb5e3555cb0894b8a6696f1120a
   languageName: node
   linkType: hard
 
@@ -2223,13 +2221,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"buffer-from@npm:^1.0.0":
-  version: 1.1.2
-  resolution: "buffer-from@npm:1.1.2"
-  checksum: 10c0/124fff9d66d691a86d3b062eff4663fe437a9d9ee4b47b1b9e97f5a5d14f6d5399345db80f796827be7c95e70a8e765dd404b7c3ff3b3324f98e9b0c8826cc34
-  languageName: node
-  linkType: hard
-
 "bytes@npm:3.1.2, bytes@npm:^3.1.2":
   version: 3.1.2
   resolution: "bytes@npm:3.1.2"
@@ -2427,10 +2418,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^14.0.0":
-  version: 14.0.1
-  resolution: "commander@npm:14.0.1"
-  checksum: 10c0/64439c0651ddd01c1d0f48c8f08e97c18a0a1fa693879451f1203ad01132af2c2aa85da24cf0d8e098ab9e6dc385a756be670d2999a3c628ec745c3ec124587b
+"commander@npm:^14.0.1":
+  version: 14.0.2
+  resolution: "commander@npm:14.0.2"
+  checksum: 10c0/245abd1349dbad5414cb6517b7b5c584895c02c4f7836ff5395f301192b8566f9796c82d7bd6c92d07eba8775fe4df86602fca5d86d8d10bcc2aded1e21c2aeb
   languageName: node
   linkType: hard
 
@@ -4181,8 +4172,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "modern-api@workspace:."
   dependencies:
-    "@nahkies/openapi-code-generator": "npm:^0.21.1"
-    "@nahkies/typescript-express-runtime": "npm:^0.21.1"
+    "@nahkies/openapi-code-generator": "npm:^0.22.0-alpha.0"
+    "@nahkies/typescript-express-runtime": "npm:^0.22.0-alpha.0"
     "@types/cors": "npm:^2.8.19"
     "@types/express": "npm:^5.0.3"
     "@types/node": "npm:^24.8.1"
@@ -4938,23 +4929,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-support@npm:^0.5.21":
-  version: 0.5.21
-  resolution: "source-map-support@npm:0.5.21"
-  dependencies:
-    buffer-from: "npm:^1.0.0"
-    source-map: "npm:^0.6.0"
-  checksum: 10c0/9ee09942f415e0f721d6daad3917ec1516af746a8120bba7bb56278707a37f1eb8642bde456e98454b8a885023af81a16e646869975f06afc1a711fb90484e7d
-  languageName: node
-  linkType: hard
-
-"source-map@npm:^0.6.0":
-  version: 0.6.1
-  resolution: "source-map@npm:0.6.1"
-  checksum: 10c0/ab55398007c5e5532957cb0beee2368529618ac0ab372d789806f5718123cc4367d57de3904b4e6a4170eb5a0b0f41373066d02ca0735a0c4d75c7d328d3e011
-  languageName: node
-  linkType: hard
-
 "ssri@npm:^12.0.0":
   version: 12.0.0
   resolution: "ssri@npm:12.0.0"
@@ -5070,13 +5044,6 @@ __metadata:
   version: 3.1.1
   resolution: "strip-json-comments@npm:3.1.1"
   checksum: 10c0/9681a6257b925a7fa0f285851c0e613cc934a50661fa7bb41ca9cbbff89686bb4a0ee366e6ecedc4daafd01e83eee0720111ab294366fe7c185e935475ebcecd
-  languageName: node
-  linkType: hard
-
-"strip-json-comments@npm:^5.0.2":
-  version: 5.0.3
-  resolution: "strip-json-comments@npm:5.0.3"
-  checksum: 10c0/daaf20b29f69fb51112698f4a9a662490dbb78d5baf6127c75a0a83c2ac6c078a8c0f74b389ad5e0519d6fc359c4a57cb9971b1ae201aef62ce45a13247791e0
   languageName: node
   linkType: hard
 
@@ -5367,16 +5334,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~5.8.3":
-  version: 5.8.3
-  resolution: "typescript@npm:5.8.3"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 10c0/5f8bb01196e542e64d44db3d16ee0e4063ce4f3e3966df6005f2588e86d91c03e1fb131c2581baf0fb65ee79669eea6e161cd448178986587e9f6844446dbb48
-  languageName: node
-  linkType: hard
-
 "typescript@patch:typescript@npm%3A^5.9.3#optional!builtin<compat/typescript>":
   version: 5.9.3
   resolution: "typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"
@@ -5384,16 +5341,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10c0/ad09fdf7a756814dce65bc60c1657b40d44451346858eea230e10f2e95a289d9183b6e32e5c11e95acc0ccc214b4f36289dcad4bf1886b0adb84d711d336a430
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@npm%3A~5.8.3#optional!builtin<compat/typescript>":
-  version: 5.8.3
-  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 10c0/39117e346ff8ebd87ae1510b3a77d5d92dae5a89bde588c747d25da5c146603a99c8ee588c7ef80faaf123d89ed46f6dbd918d534d641083177d5fac38b8a1cb
   languageName: node
   linkType: hard
 
@@ -5933,10 +5880,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:3.25.74":
-  version: 3.25.74
-  resolution: "zod@npm:3.25.74"
-  checksum: 10c0/59e38b046ac333b5bd1ba325a83b6798721227cbfb1e69dfc7159bd7824b904241ab923026edb714fafefec3624265ae374a70aee9a5a45b365bd31781ffa105
+"zod@npm:^3.25.74":
+  version: 3.25.76
+  resolution: "zod@npm:3.25.76"
+  checksum: 10c0/5718ec35e3c40b600316c5b4c5e4976f7fee68151bc8f8d90ec18a469be9571f072e1bbaace10f1e85cf8892ea12d90821b200e980ab46916a6166a4260a983c
   languageName: node
   linkType: hard
 

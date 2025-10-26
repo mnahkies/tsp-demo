@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2022",
     "useDefineForClassFields": true,
-    "module": "Node16",
+    "module": "nodenext",
     "moduleResolution": "Node16",
     "lib": [
       "ES2022"
@@ -12,6 +12,7 @@
     "sourceMap": true,
     "declaration": true,
     "skipLibCheck": true,
+    "rewriteRelativeImportExtensions": true,
     /* Linting */
     "strict": true
   },

@@ -23,3 +23,5 @@ js-test-results.xml
 
 # Claude AI personal context (not to be committed)
 .claude/
+
+.dist

@@ -2,21 +2,21 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import { t_HealthCheckResponse } from "./models"
-import { s_HealthCheckResponse } from "./schemas"
 import { ExpressRuntimeError } from "@nahkies/typescript-express-runtime/errors"
 import {
-  ExpressRuntimeResponder,
+  type ExpressRuntimeResponder,
   ExpressRuntimeResponse,
-  Params,
-  ServerConfig,
+  type Params,
+  type ServerConfig,
   SkipResponse,
-  StatusCode,
+  type StatusCode,
   startServer,
 } from "@nahkies/typescript-express-runtime/server"
-import { responseValidationFactory } from "@nahkies/typescript-express-runtime/zod"
-import { NextFunction, Request, Response, Router } from "express"
-import { z } from "zod"
+import { responseValidationFactory } from "@nahkies/typescript-express-runtime/zod-v4"
+import { type NextFunction, type Request, type Response, Router } from "ultimate-express"
+import { z } from "zod/v4"
+import type { t_HealthCheckResponse } from "./models.ts"
+import { s_HealthCheckResponse } from "./schemas.ts"
 
 export type HelloWorldGetHelloResponder = {
   with200(): ExpressRuntimeResponse<{

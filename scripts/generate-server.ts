@@ -5,9 +5,10 @@
  * using @nahkies/openapi-code-generator
  */
 
-import {execSync} from 'child_process';
-import {fileURLToPath} from 'url';
-import {dirname, join} from 'path';
+import {execSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+import {dirname, join} from 'node:path';
+import {readFileSync, writeFileSync} from 'node:fs'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -24,10 +25,11 @@ try {
   console.log('\nRunning @nahkies/openapi-code-generator...');
 
   execSync(
-    `npx @nahkies/openapi-code-generator \
+    `yarn openapi-code-generator \
       --input  ${TYPESPEC_FILE} \
       --input-type typespec \
       --output ${OUTPUT_DIR} \
+      --schema-builder zod-v4 \
       --template typescript-express`,
     {
       stdio: 'inherit',
@@ -41,16 +43,14 @@ try {
   // Post-process generated.ts to fix imports
   console.log('\nPost-processing generated.ts...');
 
-  // let content = readFileSync(GENERATED_FILE, 'utf-8');
+  let content = readFileSync(GENERATED_FILE, 'utf-8');
 
   // Replace import paths
-  // content = content.replace(/from ['"]\.\/(models)['"]/g, 'from "./$1.js"');
-  // content = content.replace(/from ['"]\.\/(schemas)['"]/g, 'from "./$1.js"');
-  // content = content.replace(/from ['"]express['"]/g, 'from "ultimate-express"');
+  content = content.replace(/from ['"]express['"]/g, 'from "ultimate-express"');
 
-  // writeFileSync(GENERATED_FILE, content, 'utf-8');
+  writeFileSync(GENERATED_FILE, content, 'utf-8');
 
-  // console.log('✓ Post-processing complete!');
+  console.log('✓ Post-processing complete!');
 } catch (error) {
   console.error('\n✗ Error generating server:', error);
   process.exit(1);

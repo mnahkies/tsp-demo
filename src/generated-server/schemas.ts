@@ -2,7 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import { z } from "zod"
+import { z } from "zod/v4"
 
 export const s_HealthCheckResponse = z.object({
   version: z.string(),

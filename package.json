@@ -24,7 +24,7 @@
   ],
   "author": "",
   "dependencies": {
-    "@nahkies/typescript-express-runtime": "^0.21.1",
+    "@nahkies/typescript-express-runtime": "^0.22.0-alpha.0",
     "cors": "^2.8.5",
     "helmet": "^8.1.0",
     "swagger-ui-express": "^5.0.1",
@@ -33,7 +33,7 @@
     "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@nahkies/openapi-code-generator": "^0.21.1",
+    "@nahkies/openapi-code-generator": "^0.22.0-alpha.0",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.8.1",
